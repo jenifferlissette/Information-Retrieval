@@ -99,5 +99,5 @@ if __name__ == "__main__":
     recipe_df = pd.DataFrame(results)
 
     # Save to CSV
-    recipe_df.to_csv('Deber12_Recetas.csv', index=True)
-    print("Data saved to Deber12_Recetas.csv")
+    recipe_df.to_csv('AllRecipes.csv', index=True)
+    print("Data saved to AllRecipes.csv")
